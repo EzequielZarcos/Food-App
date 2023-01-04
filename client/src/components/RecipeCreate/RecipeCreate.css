@@ -1,0 +1,129 @@
+.div-create {
+  text-align: center;
+  align-items: center;
+  background-image: url("image-background-create.jpg");
+  background-size: cover;
+}
+
+.div-create2 {
+  background-color: rgba(0, 0, 0, 0.761);
+  text-align: justify;
+  display: inline-flex;
+  flex-direction: column;
+  height: auto;
+  width: 900px;
+  font-size: 20px;
+  margin: 30px;
+  border-radius: 20px;
+}
+
+form {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+textarea {
+  border-color: rgb(218, 147, 17);
+  border-width: 3px;
+  border-radius: 10px;
+  width: 320px;
+  height: 170px;
+  margin: auto;
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: rgb(233, 151, 0);
+  background-color: rgba(25, 23, 22, 0.741);
+}
+
+.title-create {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: rgb(233, 151, 0);
+  text-decoration: underline;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 40px;
+}
+
+.btn-create {
+  font-size: 20px;
+  margin: 5px 5px 10px 5px;
+  color: rgb(233, 151, 0);
+  background-color: rgb(19, 19, 19);
+  border-radius: 10px;
+  border: 5px rgb(19, 19, 19) outset;
+  width: 90px;
+  height: 42px;
+  cursor: pointer;
+}
+
+.input-create {
+  font-size: 16px;
+  border-width: 3px;
+  border-color: rgb(218, 147, 17);
+  border-radius: 10px;
+  width: 250px;
+  height: 30px;
+  margin-bottom: 20px;
+  background-color: rgba(25, 23, 22, 0.741);
+  color: rgb(233, 151, 0);
+}
+
+.inp-range {
+  width: 200px;
+  height: 20px;
+  margin: 10px 0px 20px 0px;
+}
+
+.checkbox {
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  text-align: left;
+}
+
+.div-checkbox {
+  height: auto;
+  width: 300px;
+  display: inline-block;
+  margin: auto;
+  padding: 5px;
+}
+
+label {
+  color: rgb(233, 151, 0);
+  margin: 20px;
+  font-size: 30px;
+  text-decoration: overline;
+}
+
+.label-name {
+  color: rgb(233, 151, 0);
+  margin: 20px;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.label-create {
+  color: rgb(218, 147, 17);
+  font-family: cursive;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.error {
+  color: rgb(222, 10, 10);
+  font-weight: 500;
+}
+
+.list-steps {
+  background-color: rgba(5, 5, 5, 0.862);
+  color: rgb(218, 147, 17);
+  margin: 20px;
+  border-radius: 10px;
+  width: 350px;
+  height: 200px;
+  padding: 10px;
+  overflow: auto;
+}

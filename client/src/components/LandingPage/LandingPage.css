@@ -1,0 +1,38 @@
+.div-landing {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.video {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+}
+
+.h1-landing {
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.694);
+  font-size: 50px;
+  margin-bottom: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn-landing {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 380px;
+  color: rgb(54, 161, 125);
+  background-color: rgba(19, 19, 19, 0.644);
+  border-radius: 10px;
+  border-color: rgba(19, 19, 19, 0.644);
+  width: 120px;
+  height: 62px;
+  cursor: pointer;
+}

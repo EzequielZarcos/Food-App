@@ -1,0 +1,15 @@
+.paginate {
+  /* border: 1px solid red; */
+}
+
+.btnPaginate {
+  text-align: center;
+  cursor: pointer;
+  background-color: transparent;
+  color: azure;
+  font-size: 20px;
+  border: 1px solid azure;
+  border-radius: 5px;
+  width: 40px;
+  margin: 20px 10px 20px 10px;
+}

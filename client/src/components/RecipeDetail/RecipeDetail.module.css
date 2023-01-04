@@ -1,0 +1,58 @@
+.divPrincipal {
+  background-color: black;
+  color: azure;
+  font-size: 19px;
+}
+
+.divTitle {
+  text-align: center;
+  /* border: 1px solid red; */
+}
+
+.divInfo {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.divLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 1px solid azure;
+  width: 48%;
+}
+
+.divRight {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid red; */
+
+  padding: 0px 20px 20px 20px;
+  width: 48%;
+  font-size: 21px;
+}
+
+.divImage {
+  /* border: 1px solid red; */
+
+  margin-top: 20px;
+  width: 90%;
+}
+
+.image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.divDiets {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid red; */
+}
+
+.link {
+  font-size: 23px;
+  color: grey;
+  text-decoration: none;
+}

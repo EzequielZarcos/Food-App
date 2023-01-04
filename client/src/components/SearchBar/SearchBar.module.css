@@ -1,0 +1,87 @@
+.container {
+  color: azure;
+  background-color: rgb(22, 21, 21);
+  display: flex;
+  font-size: 18px;
+}
+
+.divLink {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  /* border: 1px solid red; */
+}
+
+.link {
+  color: azure;
+  text-decoration: none;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 7px;
+  width: 60%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.divPrincipal {
+  width: 80%;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.divSearch {
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+
+.divSearch input {
+  background-color: transparent;
+  height: 45px;
+  color: azure;
+  border: 1px solid azure;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.btnSearch {
+  background-color: transparent;
+  width: 50px;
+  border: none;
+}
+
+.btnSearch img {
+  width: 100%;
+}
+
+.divSelects {
+  display: flex;
+  justify-content: space-evenly;
+  /* border: 1px solid red; */
+  width: 65%;
+}
+
+.select {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid red; */
+}
+
+.select select {
+  color: azure;
+  font-size: 18px;
+  border: 1px solid azure;
+  background-color: black;
+  margin-bottom: 10px;
+}
+
+.select p {
+  margin: 5px;
+  font-size: 20px;
+
+  font-weight: 700;
+}
